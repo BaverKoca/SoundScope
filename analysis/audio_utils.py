@@ -11,6 +11,6 @@ def analyze_loudness_per_second(mp3_path):
         rms = np.sqrt(np.mean(samples**2))
         max_possible = np.iinfo(samples.dtype).max
         rms_norm = rms / max_possible
-        dB = 20 * np.log10(rms_norm) if rms_norm > 0 else -240
+        dB = 20 * np.log10(rms_norm) if rms_norm > 0 else -900
         loudness_data.append({'time': i, 'dB': abs(round(dB, 2))})
     return loudness_data

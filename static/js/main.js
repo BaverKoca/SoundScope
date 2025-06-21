@@ -12,7 +12,7 @@ function initChart() {
             animation: false,
             scales: {
                 x: { title: { display: true, text: 'Time (s)' } },
-                y: { title: { display: true, text: 'Loudness (dB)' }, min: 0, max: 240 }
+                y: { title: { display: true, text: 'Loudness (dB)' }, min: 0, max: 90 }
             }
         }
     });
