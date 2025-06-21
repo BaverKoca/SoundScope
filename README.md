@@ -33,7 +33,7 @@
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/SoundScope.git
+git clone https://github.com/BaverKoca/SoundScope.git
 cd SoundScope
 ```
 
