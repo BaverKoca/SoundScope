@@ -1,13 +1,13 @@
 # SoundScope
 
 <p align="center">
-  <img src="static/assets/logo.png" alt="SoundScope Logo" width="120"/>
-</p>
-
-<p align="center">
   <b>Modern web app for real-time audio analysis & visualization</b><br>
   <i>Upload MP3s, play in-browser, and watch a live loudness graph synced to your music.</i>
 </p>
+
+## 🖼️ Screenshots
+![Image](https://github.com/user-attachments/assets/a2e0e15a-818f-4082-97f9-cf028c9489dd)
+![Image](https://github.com/user-attachments/assets/0b41f957-bc13-40e0-852f-32e1573f1061)
 
 ---
 
@@ -17,14 +17,6 @@
 - <b>Real-Time Loudness Analysis:</b> See per-second loudness (dB) calculated live as your music plays.
 - <b>Live Visualization:</b> Interactive, modern bar chart updates in sync with playback.
 - <b>Responsive UI:</b> Clean, glassmorphism-inspired design for desktop & mobile.
-
----
-
-## 🖼️ Screenshots
-
-<p align="center">
-  <img src="static/assets/download.jpg" alt="SoundScope Screenshot" width="600"/>
-</p>
 
 ---
 
@@ -90,5 +82,5 @@ This project is licensed under the MIT License.
 ---
 
 <p align="center">
-  <b>SoundScope</b> | Real-Time Audio Analysis & Visualization
+  <b>SoundScope</b> | Real-Time Audio Analysis & Visualization <br> Developed by Baver Koca
 </p>
