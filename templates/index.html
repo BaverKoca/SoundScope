@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundScope - Real-Time Audio Analysis</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="/static/assets/download.jpg" class="logo" alt="SoundScope Logo">
+        <h1>SoundScope</h1>
+        <p>Real-Time Audio Analysis & Visualization</p>
+    </div>
+    <div class="upload-section">
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label class="custom-file-label" for="mp3file">Choose MP3 File</label>
+            <input type="file" id="mp3file" name="mp3file" accept="audio/mp3,audio/mpeg" required>
+            <span class="selected-file-name" id="selectedFileName">No file chosen</span>
+            <button type="submit" class="btn">Analyze & Play</button>
+        </form>
+        <div class="audio-controls">
+            <audio id="audioPlayer" controls style="width:100%; margin-top:1rem;"></audio>
+        </div>
+    </div>
+    <div id="chart-container">
+        <canvas id="loudnessChart" height="120"></canvas>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

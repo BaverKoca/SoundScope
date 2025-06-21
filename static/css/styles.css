@@ -1,0 +1,33 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #181c20; color: #f5f6fa; margin: 0; }
+.header { background: #23272f; padding: 1.5rem 2rem; text-align: center; box-shadow: 0 2px 8px #0002; }
+.logo { height: 48px; vertical-align: middle; }
+.upload-section { margin: 2rem auto; max-width: 500px; background: #23272f; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 16px #0003; }
+input[type=file] { display: none; }
+button, .btn { background: #4f8cff; color: #fff; border: none; border-radius: 6px; padding: 0.75rem 1.5rem; font-size: 1rem; cursor: pointer; transition: background 0.2s; }
+button:hover, .btn:hover { background: #357ae8; }
+#chart-container { margin: 2rem auto; max-width: 800px; background: #23272f; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 16px #0003; }
+.audio-controls { text-align: center; margin-top: 1.5rem; }
+.custom-file-label {
+    display: inline-block;
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px #4f8cff33;
+    transition: background 0.2s, transform 0.2s;
+    margin-bottom: 1.2rem;
+}
+.custom-file-label:hover {
+    background: #357ae8;
+    transform: translateY(-2px) scale(1.04);
+}
+.selected-file-name {
+    color: #bfc9d1;
+    font-size: 1rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+}

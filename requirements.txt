@@ -1,0 +1,5 @@
+Flask
+Flask-SocketIO
+pydub
+numpy
+python-dotenv
